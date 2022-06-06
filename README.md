@@ -1,6 +1,6 @@
 # Yan_pa
 
-爬vilpix上的推荐图片，settings中IMAGES_STORE为存储地址，默认./IMGS
+爬vilpix上的推荐图片，settings中IMAGES_STORE为存储目录，默认./IMGS
 
 在Nun中设置数量 
 
