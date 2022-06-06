@@ -1,0 +1,495 @@
+2022-06-06 21:51:09 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: yan_pa)
+2022-06-06 21:51:09 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 22.2.0, Python 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1o  3 May 2022), cryptography 37.0.1, Platform Windows-10-10.0.19044-SP0
+2022-06-06 21:51:09 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'yan_pa',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'yan_pa.spiders',
+ 'SPIDER_MODULES': ['yan_pa.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0'}
+2022-06-06 21:51:09 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-06-06 21:51:09 [scrapy.extensions.telnet] INFO: Telnet Password: cfc9c9ca1e3cac09
+2022-06-06 21:51:09 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 21:51:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 21:51:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 21:51:10 [scrapy.middleware] WARNING: Disabled imgsPileLine: ImagesPipeline requires installing Pillow 4.0.0 or later
+2022-06-06 21:51:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2022-06-06 21:51:10 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 21:51:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 21:51:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 21:51:10 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/> from <GET http://www.vilipix.com/>
+2022-06-06 21:51:15 [filelock] DEBUG: Attempting to acquire lock 2388160132912 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:51:15 [filelock] DEBUG: Lock 2388160132912 acquired on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:51:15 [filelock] DEBUG: Attempting to acquire lock 2388160135120 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:51:15 [filelock] DEBUG: Lock 2388160135120 acquired on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:51:15 [filelock] DEBUG: Attempting to release lock 2388160135120 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:51:15 [filelock] DEBUG: Lock 2388160135120 released on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:51:15 [filelock] DEBUG: Attempting to release lock 2388160132912 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:51:15 [filelock] DEBUG: Lock 2388160132912 released on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:51:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/> (referer: None)
+2022-06-06 21:51:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/98196270> from <GET http://www.vilipix.com/illust/98196270>
+2022-06-06 21:51:15 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/98159026> from <GET http://www.vilipix.com/illust/98159026>
+2022-06-06 21:51:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/98196270> (referer: None)
+2022-06-06 21:51:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/98196270>
+{'name': 'No title',
+ 'src': 'https://img8.vilipix.com/picture/pages/regular/2022/05/08/20/45/98196270_p0_master1200.jpg'}
+2022-06-06 21:51:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/98159026> (referer: None)
+2022-06-06 21:51:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/98159026>
+{'name': '埃尔文',
+ 'src': 'https://img8.vilipix.com/picture/pages/regular/2022/05/08/20/46/98159026_p0_master1200.jpg'}
+2022-06-06 21:51:17 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 21:51:17 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1352,
+ 'downloader/request_count': 6,
+ 'downloader/request_method_count/GET': 6,
+ 'downloader/response_bytes': 168054,
+ 'downloader/response_count': 6,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/301': 3,
+ 'elapsed_time_seconds': 7.013244,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 13, 51, 17, 348895),
+ 'httpcompression/response_bytes': 965401,
+ 'httpcompression/response_count': 3,
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 17,
+ 'log_count/INFO': 10,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 1,
+ 'response_received_count': 3,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2022, 6, 6, 13, 51, 10, 335651)}
+2022-06-06 21:51:17 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-06 21:54:42 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: yan_pa)
+2022-06-06 21:54:42 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 22.2.0, Python 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1o  3 May 2022), cryptography 37.0.1, Platform Windows-10-10.0.19044-SP0
+2022-06-06 21:54:42 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'yan_pa',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'yan_pa.spiders',
+ 'SPIDER_MODULES': ['yan_pa.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0'}
+2022-06-06 21:54:42 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-06-06 21:54:42 [scrapy.extensions.telnet] INFO: Telnet Password: 5038997e5d1d83ee
+2022-06-06 21:54:42 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 21:54:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 21:54:42 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 21:54:42 [scrapy.middleware] INFO: Enabled item pipelines:
+['yan_pa.pipelines.imgsPileLine']
+2022-06-06 21:54:42 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 21:54:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 21:54:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 21:54:43 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/> from <GET http://www.vilipix.com/>
+2022-06-06 21:55:07 [filelock] DEBUG: Attempting to acquire lock 1302298100400 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:55:07 [filelock] DEBUG: Lock 1302298100400 acquired on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:55:07 [filelock] DEBUG: Attempting to acquire lock 1302298102752 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:55:07 [filelock] DEBUG: Lock 1302298102752 acquired on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:55:07 [filelock] DEBUG: Attempting to release lock 1302298102752 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:55:07 [filelock] DEBUG: Lock 1302298102752 released on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:55:07 [filelock] DEBUG: Attempting to release lock 1302298100400 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:55:07 [filelock] DEBUG: Lock 1302298100400 released on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:55:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/> (referer: None)
+2022-06-06 21:55:07 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi_AiaFjtRNU> from <GET http://www.vilipix.com/illust/vi_AiaFjtRNU>
+2022-06-06 21:55:07 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi_nGk47dGh3> from <GET http://www.vilipix.com/illust/vi_nGk47dGh3>
+2022-06-06 21:55:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi_AiaFjtRNU> (referer: None)
+2022-06-06 21:55:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000333550/1652157151927_it_4610726224296.jpg> (referer: None)
+2022-06-06 21:55:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000333550/1652157151927_it_4610726224296.jpg> referred in <None>
+2022-06-06 21:55:12 [PIL.TiffImagePlugin] DEBUG: tag: ImageWidth (256) - type: long (4) - value: b'\x00\x00\x03\xd7'
+2022-06-06 21:55:12 [PIL.TiffImagePlugin] DEBUG: tag: Model (272) - type: string (2) Tag Location: 34 - Data Location: 98 - value: b'TNY-AL00\x00'
+2022-06-06 21:55:12 [PIL.TiffImagePlugin] DEBUG: tag: ImageLength (257) - type: long (4) - value: b'\x00\x00\x05;'
+2022-06-06 21:55:12 [PIL.TiffImagePlugin] DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2022-06-06 21:55:12 [PIL.TiffImagePlugin] DEBUG: tag: DateTime (306) - type: string (2) Tag Location: 70 - Data Location: 107 - value: b'2022:03:06 21:00:30\x00'
+2022-06-06 21:55:12 [PIL.TiffImagePlugin] DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00\x86'
+2022-06-06 21:55:12 [PIL.TiffImagePlugin] DEBUG: tag: Make (271) - type: string (2) Tag Location: 94 - Data Location: 127 - value: b'HUAWEI\x00'
+2022-06-06 21:55:12 [scrapy.pipelines.files] ERROR: File (unknown-error): Error processing file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000333550/1652157151927_it_4610726224296.jpg> referred in <None>
+Traceback (most recent call last):
+  File "F:\mini\envs\gun\lib\site-packages\twisted\internet\defer.py", line 1660, in _inlineCallbacks
+    result = current_context.run(gen.send, result)
+StopIteration: <200 https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000333550/1652157151927_it_4610726224296.jpg>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\mini\envs\gun\lib\site-packages\scrapy\pipelines\files.py", line 465, in media_downloaded
+    checksum = self.file_downloaded(response, request, info, item=item)
+  File "F:\mini\envs\gun\lib\site-packages\scrapy\pipelines\media.py", line 140, in wrapper
+    return func(*args, **kwargs)
+  File "F:\mini\envs\gun\lib\site-packages\scrapy\pipelines\images.py", line 115, in file_downloaded
+    return self.image_downloaded(response, request, info, item=item)
+  File "F:\mini\envs\gun\lib\site-packages\scrapy\pipelines\media.py", line 140, in wrapper
+    return func(*args, **kwargs)
+  File "F:\mini\envs\gun\lib\site-packages\scrapy\pipelines\images.py", line 124, in image_downloaded
+    self.store.persist_file(
+  File "F:\mini\envs\gun\lib\site-packages\scrapy\pipelines\files.py", line 52, in persist_file
+    with open(absolute_path, 'wb') as f:
+OSError: [Errno 22] Invalid argument: 'xxx\\漫画里截的图 ~\n漫画名:柑橘味香气 ~\n'
+2022-06-06 21:55:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi_AiaFjtRNU>
+{'name': '漫画里截的图 ~\n漫画名:柑橘味香气 ~\n',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000333550/1652157151927_it_4610726224296.jpg'}
+2022-06-06 21:55:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi_nGk47dGh3> (referer: None)
+2022-06-06 21:55:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652151849545_1652151648342.png> (referer: None)
+2022-06-06 21:55:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652151849545_1652151648342.png> referred in <None>
+2022-06-06 21:55:15 [PIL.PngImagePlugin] DEBUG: STREAM b'IHDR' 16 13
+2022-06-06 21:55:15 [PIL.PngImagePlugin] DEBUG: STREAM b'sRGB' 41 1
+2022-06-06 21:55:15 [PIL.PngImagePlugin] DEBUG: STREAM b'sBIT' 54 3
+2022-06-06 21:55:15 [PIL.PngImagePlugin] DEBUG: b'sBIT' 54 3 (unknown)
+2022-06-06 21:55:15 [PIL.PngImagePlugin] DEBUG: STREAM b'IDAT' 69 8192
+2022-06-06 21:55:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi_nGk47dGh3>
+{'name': '好',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652151849545_1652151648342.png'}
+2022-06-06 21:55:16 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 21:55:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1915,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 2791563,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/301': 3,
+ 'elapsed_time_seconds': 33.00673,
+ 'file_count': 2,
+ 'file_status_count/downloaded': 2,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 13, 55, 16, 123792),
+ 'httpcompression/response_bytes': 968431,
+ 'httpcompression/response_count': 3,
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 33,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 5,
+ 'scheduler/dequeued': 6,
+ 'scheduler/dequeued/memory': 6,
+ 'scheduler/enqueued': 6,
+ 'scheduler/enqueued/memory': 6,
+ 'start_time': datetime.datetime(2022, 6, 6, 13, 54, 43, 117062)}
+2022-06-06 21:55:16 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-06 21:58:26 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: yan_pa)
+2022-06-06 21:58:26 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 22.2.0, Python 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1o  3 May 2022), cryptography 37.0.1, Platform Windows-10-10.0.19044-SP0
+2022-06-06 21:58:26 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'yan_pa',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'yan_pa.spiders',
+ 'SPIDER_MODULES': ['yan_pa.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0'}
+2022-06-06 21:58:26 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-06-06 21:58:26 [scrapy.extensions.telnet] INFO: Telnet Password: 7b4f54e8d72d07a5
+2022-06-06 21:58:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 21:58:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 21:58:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 21:58:26 [scrapy.middleware] INFO: Enabled item pipelines:
+['yan_pa.pipelines.imgsPileLine']
+2022-06-06 21:58:26 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 21:58:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 21:58:27 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 21:58:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/> from <GET http://www.vilipix.com/>
+2022-06-06 21:58:34 [filelock] DEBUG: Attempting to acquire lock 2194619171648 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:58:34 [filelock] DEBUG: Lock 2194619171648 acquired on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:58:34 [filelock] DEBUG: Attempting to acquire lock 2194619174000 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:58:34 [filelock] DEBUG: Lock 2194619174000 acquired on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:58:34 [filelock] DEBUG: Attempting to release lock 2194619174000 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:58:34 [filelock] DEBUG: Lock 2194619174000 released on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:58:34 [filelock] DEBUG: Attempting to release lock 2194619171648 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:58:34 [filelock] DEBUG: Lock 2194619171648 released on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:58:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/> (referer: None)
+2022-06-06 21:58:34 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/98168684> from <GET http://www.vilipix.com/illust/98168684>
+2022-06-06 21:58:34 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi_6lX98Y-to> from <GET http://www.vilipix.com/illust/vi_6lX98Y-to>
+2022-06-06 21:58:34 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/98185165> from <GET http://www.vilipix.com/illust/98185165>
+2022-06-06 21:58:34 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi_mgQew8bEA> from <GET http://www.vilipix.com/illust/vi_mgQew8bEA>
+2022-06-06 21:58:34 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/98192406> from <GET http://www.vilipix.com/illust/98192406>
+2022-06-06 21:58:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi_6lX98Y-to> (referer: None)
+2022-06-06 21:58:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/98185165> (referer: None)
+2022-06-06 21:58:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000338532/1652056261355_-origin-IMG_0414.JPG> (referer: None)
+2022-06-06 21:58:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000338532/1652056261355_-origin-IMG_0414.JPG> referred in <None>
+2022-06-06 21:58:38 [PIL.TiffImagePlugin] DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x00\x01'
+2022-06-06 21:58:38 [PIL.TiffImagePlugin] DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2022-06-06 21:58:38 [PIL.TiffImagePlugin] DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00H\x00\x00\x00\x01'
+2022-06-06 21:58:38 [PIL.TiffImagePlugin] DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2022-06-06 21:58:38 [PIL.TiffImagePlugin] DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+2022-06-06 21:58:38 [PIL.TiffImagePlugin] DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+2022-06-06 21:58:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/98192406> (referer: None)
+2022-06-06 21:58:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/98168684> (referer: None)
+2022-06-06 21:58:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi_6lX98Y-to>
+{'name': '特种兵',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000338532/1652056261355_-origin-IMG_0414.JPG'}
+2022-06-06 21:58:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img8.vilipix.com/picture/pages/regular/2022/05/08/20/45/98185165_p0_master1200.jpg> (referer: None)
+2022-06-06 21:58:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img8.vilipix.com/picture/pages/regular/2022/05/08/20/45/98185165_p0_master1200.jpg> referred in <None>
+2022-06-06 21:58:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/98185165>
+{'name': '⚫️',
+ 'src': 'https://img8.vilipix.com/picture/pages/regular/2022/05/08/20/45/98185165_p0_master1200.jpg'}
+2022-06-06 21:58:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img8.vilipix.com/picture/pages/regular/2022/05/01/19/32/98168684_p0_master1200.jpg> (referer: None)
+2022-06-06 21:58:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img8.vilipix.com/picture/pages/regular/2022/05/01/19/32/98168684_p0_master1200.jpg> referred in <None>
+2022-06-06 21:58:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/98168684>
+{'name': '桃桃 ~',
+ 'src': 'https://img8.vilipix.com/picture/pages/regular/2022/05/01/19/32/98168684_p0_master1200.jpg'}
+2022-06-06 21:58:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi_mgQew8bEA> (referer: None)
+2022-06-06 21:58:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://img8.vilipix.com/picture/pages/regular/2022/05/08/20/45/98192406_p0_master1200.jpg> (referer: None)
+2022-06-06 21:58:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://img8.vilipix.com/picture/pages/regular/2022/05/08/20/45/98192406_p0_master1200.jpg> referred in <None>
+2022-06-06 21:58:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/98192406>
+{'name': '荆棘公主',
+ 'src': 'https://img8.vilipix.com/picture/pages/regular/2022/05/08/20/45/98192406_p0_master1200.jpg'}
+2022-06-06 21:58:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000124721/1652032509049_ort1652032493551.jpg> (referer: None)
+2022-06-06 21:58:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000124721/1652032509049_ort1652032493551.jpg> referred in <None>
+2022-06-06 21:58:39 [PIL.TiffImagePlugin] DEBUG: tag: PhotometricInterpretation (262) - type: short (3) - value: b'\x00\x02'
+2022-06-06 21:58:39 [PIL.TiffImagePlugin] DEBUG: tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 86 - value: b'\x00\x00\x00\x84\x00\x00\x00\x01'
+2022-06-06 21:58:39 [PIL.TiffImagePlugin] DEBUG: tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 94 - value: b'\x00\x00\x00\x84\x00\x00\x00\x01'
+2022-06-06 21:58:39 [PIL.TiffImagePlugin] DEBUG: tag: ResolutionUnit (296) - type: short (3) - value: b'\x00\x02'
+2022-06-06 21:58:39 [PIL.TiffImagePlugin] DEBUG: tag: YCbCrPositioning (531) - type: short (3) - value: b'\x00\x01'
+2022-06-06 21:58:39 [PIL.TiffImagePlugin] DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00f'
+2022-06-06 21:58:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi_mgQew8bEA>
+{'name': 'Procreate',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000124721/1652032509049_ort1652032493551.jpg'}
+2022-06-06 21:58:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 21:58:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4144,
+ 'downloader/request_count': 17,
+ 'downloader/request_method_count/GET': 17,
+ 'downloader/response_bytes': 2033368,
+ 'downloader/response_count': 17,
+ 'downloader/response_status_count/200': 11,
+ 'downloader/response_status_count/301': 6,
+ 'elapsed_time_seconds': 12.564401,
+ 'file_count': 5,
+ 'file_status_count/downloaded': 5,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 13, 58, 39, 613390),
+ 'httpcompression/response_bytes': 1817648,
+ 'httpcompression/response_count': 6,
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 48,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 11,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2022, 6, 6, 13, 58, 27, 48989)}
+2022-06-06 21:58:39 [scrapy.core.engine] INFO: Spider closed (finished)
+2022-06-06 21:59:27 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: yan_pa)
+2022-06-06 21:59:27 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.14, cssselect 1.1.0, parsel 1.6.0, w3lib 1.21.0, Twisted 22.2.0, Python 3.9.12 (main, Apr  4 2022, 05:22:27) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1o  3 May 2022), cryptography 37.0.1, Platform Windows-10-10.0.19044-SP0
+2022-06-06 21:59:27 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'yan_pa',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'yan_pa.spiders',
+ 'SPIDER_MODULES': ['yan_pa.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0'}
+2022-06-06 21:59:27 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2022-06-06 21:59:27 [scrapy.extensions.telnet] INFO: Telnet Password: a7e2568699b93296
+2022-06-06 21:59:27 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2022-06-06 21:59:27 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2022-06-06 21:59:27 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2022-06-06 21:59:27 [scrapy.middleware] INFO: Enabled item pipelines:
+['yan_pa.pipelines.imgsPileLine']
+2022-06-06 21:59:27 [scrapy.core.engine] INFO: Spider opened
+2022-06-06 21:59:27 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2022-06-06 21:59:27 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2022-06-06 21:59:27 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/> from <GET http://www.vilipix.com/>
+2022-06-06 21:59:39 [filelock] DEBUG: Attempting to acquire lock 2711674983136 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:59:39 [filelock] DEBUG: Lock 2711674983136 acquired on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:59:39 [filelock] DEBUG: Attempting to acquire lock 2711674984576 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:59:39 [filelock] DEBUG: Lock 2711674984576 acquired on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:59:39 [filelock] DEBUG: Attempting to release lock 2711674984576 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:59:39 [filelock] DEBUG: Lock 2711674984576 released on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2022-06-06 21:59:39 [filelock] DEBUG: Attempting to release lock 2711674983136 on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:59:39 [filelock] DEBUG: Lock 2711674983136 released on F:\mini\envs\gun\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2022-06-06 21:59:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/> (referer: None)
+2022-06-06 21:59:39 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi_W2LSpMxiL> from <GET http://www.vilipix.com/illust/vi_W2LSpMxiL>
+2022-06-06 21:59:39 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi_iQmR55NQi> from <GET http://www.vilipix.com/illust/vi_iQmR55NQi>
+2022-06-06 21:59:39 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi_tkBe1iY_F> from <GET http://www.vilipix.com/illust/vi_tkBe1iY_F>
+2022-06-06 21:59:39 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi_U1DOHblgr> from <GET http://www.vilipix.com/illust/vi_U1DOHblgr>
+2022-06-06 21:59:39 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.vilipix.com/illust/vi__bcWFj1_-> from <GET http://www.vilipix.com/illust/vi__bcWFj1_->
+2022-06-06 21:59:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi_U1DOHblgr> (referer: None)
+2022-06-06 21:59:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000294448/1652120662234_4e39def369d9756e.jpg> (referer: None)
+2022-06-06 21:59:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000294448/1652120662234_4e39def369d9756e.jpg> referred in <None>
+2022-06-06 21:59:43 [PIL.TiffImagePlugin] DEBUG: tag: ImageWidth (256) - type: short (3) - value: b'\t\x04'
+2022-06-06 21:59:43 [PIL.TiffImagePlugin] DEBUG: tag: ImageLength (257) - type: short (3) - value: b'\x0e\x83'
+2022-06-06 21:59:43 [PIL.TiffImagePlugin] DEBUG: tag: ExifIFD (34665) - type: long (4) - value: b'\x00\x00\x00J'
+2022-06-06 21:59:43 [PIL.TiffImagePlugin] DEBUG: tag: Orientation (274) - type: short (3) - value: b'\x00\x00'
+2022-06-06 21:59:43 [PIL.TiffImagePlugin] DEBUG: tag: DateTime (306) - type: string (2) - value: b'\x00'
+2022-06-06 21:59:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi_U1DOHblgr>
+{'name': '淡色',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000294448/1652120662234_4e39def369d9756e.jpg'}
+2022-06-06 21:59:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi_tkBe1iY_F> (referer: None)
+2022-06-06 21:59:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000338041/1652117550364_2c1f15fc736a_raw.jpg> (referer: None)
+2022-06-06 21:59:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000338041/1652117550364_2c1f15fc736a_raw.jpg> referred in <None>
+2022-06-06 21:59:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi_iQmR55NQi> (referer: None)
+2022-06-06 21:59:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi_tkBe1iY_F>
+{'name': '冲田大胜利',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000338041/1652117550364_2c1f15fc736a_raw.jpg'}
+2022-06-06 21:59:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi_W2LSpMxiL> (referer: None)
+2022-06-06 21:59:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652149412801_1652148802821.png> (referer: None)
+2022-06-06 21:59:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652149412801_1652148802821.png> referred in <None>
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing BlpImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing BmpImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing BufrStubImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing CurImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing DcxImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing DdsImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing EpsImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing FitsImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing FitsStubImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing FliImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing FpxImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing FtexImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing GbrImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing GifImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing GribStubImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing Hdf5StubImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing IcnsImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing IcoImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing ImImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing ImtImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing IptcImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing JpegImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing Jpeg2KImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing McIdasImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing MicImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing MpegImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing MpoImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing MspImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing PalmImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing PcdImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing PcxImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing PdfImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing PixarImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing PngImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing PpmImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing PsdImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing SgiImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing SpiderImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing SunImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing TgaImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing TiffImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing WebPImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing WmfImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing XbmImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing XpmImagePlugin
+2022-06-06 21:59:45 [PIL.Image] DEBUG: Importing XVThumbImagePlugin
+2022-06-06 21:59:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.vilipix.com/illust/vi__bcWFj1_-> (referer: None)
+2022-06-06 21:59:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi_iQmR55NQi>
+{'name': '好',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652149412801_1652148802821.png'}
+2022-06-06 21:59:46 [scrapy.pipelines.files] DEBUG: File (uptodate): Downloaded image from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652149234063_1652148758980.png> referred in <None>
+2022-06-06 21:59:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi__bcWFj1_->
+{'name': '好',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652149234063_1652148758980.png'}
+2022-06-06 21:59:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652149502251_1652148834690.png> (referer: None)
+2022-06-06 21:59:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652149502251_1652148834690.png> referred in <None>
+2022-06-06 21:59:47 [PIL.PngImagePlugin] DEBUG: STREAM b'IHDR' 16 13
+2022-06-06 21:59:47 [PIL.PngImagePlugin] DEBUG: STREAM b'sRGB' 41 1
+2022-06-06 21:59:47 [PIL.PngImagePlugin] DEBUG: STREAM b'sBIT' 54 4
+2022-06-06 21:59:47 [PIL.PngImagePlugin] DEBUG: b'sBIT' 54 4 (unknown)
+2022-06-06 21:59:47 [PIL.PngImagePlugin] DEBUG: STREAM b'IDAT' 70 8192
+2022-06-06 21:59:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.vilipix.com/illust/vi_W2LSpMxiL>
+{'name': '好可爱!',
+ 'src': 'https://vilipix.oss-cn-beijing.aliyuncs.com/user/addition/1000322847/1652149502251_1652148834690.png'}
+2022-06-06 21:59:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2022-06-06 21:59:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3926,
+ 'downloader/request_count': 16,
+ 'downloader/request_method_count/GET': 16,
+ 'downloader/response_bytes': 20256778,
+ 'downloader/response_count': 16,
+ 'downloader/response_status_count/200': 10,
+ 'downloader/response_status_count/301': 6,
+ 'elapsed_time_seconds': 19.743202,
+ 'file_count': 5,
+ 'file_status_count/downloaded': 4,
+ 'file_status_count/uptodate': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 6, 6, 13, 59, 47, 610537),
+ 'httpcompression/response_bytes': 1804451,
+ 'httpcompression/response_count': 6,
+ 'item_scraped_count': 5,
+ 'log_count/DEBUG': 93,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 10,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2022, 6, 6, 13, 59, 27, 867335)}
+2022-06-06 21:59:47 [scrapy.core.engine] INFO: Spider closed (finished)
